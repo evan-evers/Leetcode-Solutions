@@ -1,5 +1,11 @@
 //Original problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+#include <string>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
 int lengthOfLongestSubstring(string s) {
   //sliding window solution: iterate through the string, and whenever a repeat character is found, move the left end of the substring past the leftmost repeat character
   int max_length = 0;
