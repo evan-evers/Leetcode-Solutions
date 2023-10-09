@@ -1,5 +1,9 @@
 //Original problem: https://leetcode.com/problems/sum-of-two-integers/
 
+#include <iostream>
+#include <string>
+using namespace std;
+
 int getSum(int a, int b) {
     //both integers are assumed to be in two's compliment form
     //algorythm loops through each binary digit in a and b and adds them arithmetic-style with a carry
