@@ -1,5 +1,9 @@
 //Original problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
+#include <vector>
+
+using namespace std;
+
 vector<int> getRow(int rowIndex) {
   vector<int> row(rowIndex + 1, 1);  //initialize an array with all the elements we'll need
 
